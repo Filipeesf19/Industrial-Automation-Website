@@ -1,0 +1,20 @@
+/* custom.css */
+.container-fluid {
+  max-height: 400px; /* Adjust the maximum width as per your requirements */
+  margin: 0 auto; /* Center the container horizontally */
+  overflow: hidden; /* Hide overflow content */
+}
+
+/* Override Bootstrap's default carousel styles to fit within the container */
+.carousel-inner {
+  max-width: 100%;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-item {
+  transform: translateY(-50px);
+}
